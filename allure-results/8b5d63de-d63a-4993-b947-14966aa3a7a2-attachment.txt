@@ -1,0 +1,6 @@
+Allure results history folder cleaned!
+Copied allure-report\history\categories-trend.json to allure-results\history\categories-trend.json
+Copied allure-report\history\duration-trend.json to allure-results\history\duration-trend.json
+Copied allure-report\history\history-trend.json to allure-results\history\history-trend.json
+Copied allure-report\history\history.json to allure-results\history\history.json
+Copied allure-report\history\retry-trend.json to allure-results\history\retry-trend.json
