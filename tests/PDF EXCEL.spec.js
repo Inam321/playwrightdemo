@@ -6,12 +6,12 @@ test.describe('test',async()=>{
 test('REPORT01', async ({ page }) => {
   await CommonMethodsClass.removedata(page);
   await CommonMethodsClass.deletehistorydata(page); //// if we need  histrical trends then disable this row
-  await page.goto('https://stg.empowergpt.ai/chat');
-  //await page.goto('https://staging.empowergpt.ai/chat');
-  await page.getByPlaceholder('Enter Email').fill('Admin');
-  await page.getByPlaceholder('Enter Password').click();
-  await page.getByPlaceholder('Enter Password').fill('@#Intech123');
-  await page.getByRole('button', { name: 'Login' }).click();
+  // await page.goto('https://stg.empowergpt.ai/chat');
+  await page.goto('https://www.google.com/');
+  // await page.getByPlaceholder('Enter Email').fill('Admin');
+  // await page.getByPlaceholder('Enter Password').click();
+  // await page.getByPlaceholder('Enter Password').fill('@#Intech123');
+  // await page.getByRole('button', { name: 'Login' }).click();
 });
  
 // test('REPORT02', async ({ page }) => {
