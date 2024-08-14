@@ -8,4 +8,5 @@ test('User Created & Delete Test', async ({ page }) => {
  await page.getByPlaceholder('Enter Password').fill('@#Intech123');
  await page.getByRole('button', { name: 'Login' }).click();
  await page.reload()
+ 
 });
