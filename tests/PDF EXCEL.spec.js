@@ -107,40 +107,40 @@ test('REPORT01', async ({ page }) => {
 //                       await page.getByPlaceholder('Enter Password').fill('@#Intech123');
 //                       await page.getByRole('button', { name: 'Login' }).click();
 //                       });
-                      test('REPORT12', async ({ page }) => {
-                        await page.goto('https://stg.empowergpt.ai/chat');
-                        //await page.goto('https://staging.empowergpt.ai/chat');
-                        await page.getByPlaceholder('Enter Email').fill('Admin');
-                        await page.getByPlaceholder('Enter Password').click();
-                        await page.getByPlaceholder('Enter Password').fill('@#Intech123');
-                        await page.getByRole('button', { name: 'Login' }).click();
-                        });
-                        // test('REPORT13', async ({ page }) => {
-                        //   test.setTimeout(2400);
-                        //   await page.goto('https://stg.empowergpt.ai/chat');
-                        //   //await page.goto('https://staging.empowergpt.ai/chat');
-                        //   await page.getByPlaceholder('Enter Email').fill('Admin');
-                        //   await page.getByPlaceholder('Enter Password').click();
-                        //   await page.getByPlaceholder('Enter Password').fill('@#Intech123');
-                        //   await page.getByRole('button', { name: 'Login' }).click();
-                          // });
-                          test('REPORT14', async ({ page }) => {
-                            await page.goto('https://stg.empowergpt.ai/chat');
-                            //await page.goto('https://staging.empowergpt.ai/chat');
-                            await page.getByPlaceholder('Enter Email').fill('Admin');
-                            await page.getByPlaceholder('Enter Password').click();
-                            await page.getByPlaceholder('Enter Password').fill('@#Intech123');
-                            await page.getByRole('button', { name: 'Login' }).click();
-                            });
-                            test('REPORT15', async ({ page }) => {
-                              test.setTimeout(240000000);
-                              await page.goto('https://stg.empowergpt.ai/chat');
-                              //await page.goto('https://staging.empowergpt.ai/chat');
-                              await page.getByPlaceholder('Enter Email').fill('Admin');
-                              await page.getByPlaceholder('Enter Password').click();
-                              await page.getByPlaceholder('Enter Password').fill('@#Intech123');
-                              await page.getByRole('button', { name: 'Login' }).click();
-                              });
+                      // test('REPORT12', async ({ page }) => {
+                      //   await page.goto('https://stg.empowergpt.ai/chat');
+                      //   //await page.goto('https://staging.empowergpt.ai/chat');
+                      //   await page.getByPlaceholder('Enter Email').fill('Admin');
+                      //   await page.getByPlaceholder('Enter Password').click();
+                      //   await page.getByPlaceholder('Enter Password').fill('@#Intech123');
+                      //   await page.getByRole('button', { name: 'Login' }).click();
+                      //   });
+                      //   // test('REPORT13', async ({ page }) => {
+                      //   //   test.setTimeout(2400);
+                      //   //   await page.goto('https://stg.empowergpt.ai/chat');
+                      //   //   //await page.goto('https://staging.empowergpt.ai/chat');
+                      //   //   await page.getByPlaceholder('Enter Email').fill('Admin');
+                      //   //   await page.getByPlaceholder('Enter Password').click();
+                      //   //   await page.getByPlaceholder('Enter Password').fill('@#Intech123');
+                      //   //   await page.getByRole('button', { name: 'Login' }).click();
+                      //     // });
+                      //     test('REPORT14', async ({ page }) => {
+                      //       await page.goto('https://stg.empowergpt.ai/chat');
+                      //       //await page.goto('https://staging.empowergpt.ai/chat');
+                      //       await page.getByPlaceholder('Enter Email').fill('Admin');
+                      //       await page.getByPlaceholder('Enter Password').click();
+                      //       await page.getByPlaceholder('Enter Password').fill('@#Intech123');
+                      //       await page.getByRole('button', { name: 'Login' }).click();
+                      //       });
+                      //       test('REPORT15', async ({ page }) => {
+                      //         test.setTimeout(240000000);
+                      //         await page.goto('https://stg.empowergpt.ai/chat');
+                      //         //await page.goto('https://staging.empowergpt.ai/chat');
+                      //         await page.getByPlaceholder('Enter Email').fill('Admin');
+                      //         await page.getByPlaceholder('Enter Password').click();
+                      //         await page.getByPlaceholder('Enter Password').fill('@#Intech123');
+                      //         await page.getByRole('button', { name: 'Login' }).click();
+                      //         });
 
 
 });
