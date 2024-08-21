@@ -60,6 +60,7 @@ test('User Created & Delete Test', async ({ page }) => {
  await page.getByRole('button', { name: 'Confirm' }).click();
  await Mac3.hover()
  await page.getByRole('button', { name: 'Delete' }).click();
+ 
  await page.getByRole('button', { name: 'Confirm' }).click();
 
 
