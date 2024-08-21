@@ -4,8 +4,8 @@ const { CommonMethodsClass } = require('./Call');
 
 test.describe('test',async()=>{
 test('REPORT01', async ({ page }) => {
-  await CommonMethodsClass.removedata(page);
-  await CommonMethodsClass.deletehistorydata(page); //// if we need  histrical trends then disable this row
+  // await CommonMethodsClass.removedata(page);
+  // await CommonMethodsClass.deletehistorydata(page); //// if we need  histrical trends then disable this row
   await page.goto('https://stg.empowergpt.ai/chat');
   await page.goto('https://www.google.com/');
   await page.getByPlaceholder('Enter Email').fill('Admin');
